@@ -1,0 +1,16 @@
+# version
+version: '3.5'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextJS14Demo
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+#to build the container and make it run -> "docker-compose up --build"
