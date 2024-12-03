@@ -16,8 +16,6 @@ COPY . .
 #build the Next JS application
 RUN npm run build
 
-#copy the next folder
-COPY .next ./.next
 
 CMD ["npm", "run", "dev"]
 
