@@ -1,4 +1,4 @@
-name: Isaiah build to docker
+name: build to docker
 
 on:
   push:
