@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Link href="/upload">Upload</Link>
             </NavigationMenu.Item>
             <NavigationMenu.Item className="pl-5"> 
-                <Link href="/stuff">Stuff</Link>
+                <Link href="/stuff">Halo</Link>
             </NavigationMenu.Item>
             </NavigationMenu.List>            
         </NavigationMenu.Root>
